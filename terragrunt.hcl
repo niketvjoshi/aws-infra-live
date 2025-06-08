@@ -15,7 +15,7 @@ remote_state {
     dynamodb_table = "terraform-lock-table"
 
     assume_role  ={
-      role_arn = "arn:aws:iam::261138453338:role/terraform"
+      role_arn = "arn:aws:iam::261138456668:role/terraform"
       session_name = "terraform"
     }
   }
@@ -32,7 +32,7 @@ provider "aws" {
   
   assume_role {
     session_name = "arn-role-session"
-    role_arn = "arn:aws:iam::261138453338:role/terraform"
+    role_arn = "arn:aws:iam::261138456668:role/terraform"
   }
 }
 EOF

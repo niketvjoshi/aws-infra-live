@@ -26,7 +26,7 @@ dependency "eks" {
 
     mock_outputs = {
         eks_name = "dev-eks"
-        openid_provider_arn = "arn:aws:iam::261138453338:oidc-provider"
+        openid_provider_arn = "arn:aws:iam::261138456668:oidc-provider"
     }
 }
 
